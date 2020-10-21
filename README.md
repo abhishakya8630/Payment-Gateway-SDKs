@@ -1,5 +1,5 @@
 ## SDK Payment Flow
-##### Different steps as mentioned in the flow diagram._
+##### Different steps as mentioned in the flow diagram:
 
 -  On click of make payment/pay now button,order payload is passed to merchant server by the app.
 - Order payload is used to generate checksum by Pine Labs server side utility and secret key(merchant key)on your server. Secret key is shared by Pine labs with merchant. Checksum is a signature used by Pine Labs to ensure the integrity of request.
